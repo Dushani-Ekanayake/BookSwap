@@ -7,10 +7,10 @@ const Footer = () => {
         <div className='container mx-auto flex flex-col md:flex-row justify-between items-start'>
             <div className='w-full md:w-1/3 mb-8 md:mb-0'>
                 <h2 className='text-2xl font-bold text-white mb-4'>BookSwap</h2>
-                <p className='text-gray-400 mt-4'>Estate delivers a modern real estate experience powered by technology.
-We bring verified listings and expert guidance together in one platform.
-Our focus is simplicity and trust.
-Turning property goals into real results.</p>
+                <p className='text-gray-400 mt-4'>BookSwap delivers an affordable textbook experience powered by students.
+We connect verified sellers and student buyers together in one platform.
+Our focus is accessibility and trust.
+Turning textbook costs into real savings.</p>
             </div>
             <div className='w-full md:w-1/5 mb-8 md:mb-0'>
                 <h3 className='text-white text-lg font-bold mb-4'>Company</h3>
@@ -32,7 +32,7 @@ Turning property goals into real results.</p>
             </div>
         </div>
         <div className='border-t border-gray-700 py-4 mt-10 text-center text-gray-500'>
-            Copyright © 2026 Estate. All rights reserved.
+            Copyright © 2026 BookSwap. All rights reserved.
         </div>
     </div>
   )

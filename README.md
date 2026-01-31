@@ -1,14 +1,5 @@
 # 📚 BookSwap - Affordable Student Textbook Marketplace
 
-```
-[![React](https://img.shields.io/badge/React-18.0%2B-blue.svg)](https://react.dev)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0%2B-blue.svg)](https://tailwindcss.com)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen.svg)]()
-[![Version](https://img.shields.io/badge/Version-2.0.0-blue.svg)]()
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
-```
-
 <img width="1880" height="1032" alt="Screenshot 2026-01-31 205919" src="https://github.com/user-attachments/assets/8aba30ed-a828-4f56-92b7-ac534115498f" />
 <img width="727" height="1027" alt="Screenshot 2026-01-31 210931" src="https://github.com/user-attachments/assets/13209d78-699e-466a-a4a8-ccbb7e519dd9" />
 

@@ -13,7 +13,6 @@
 <img width="1871" height="1019" alt="image" src="https://github.com/user-attachments/assets/1c8b6d84-a220-4669-9b17-2356ddcba64b" />
 <img width="1849" height="807" alt="image" src="https://github.com/user-attachments/assets/2dc57a8c-b652-4e39-a550-627b81861743" />
 <img width="1861" height="944" alt="image" src="https://github.com/user-attachments/assets/e871a809-61c6-4f9b-a961-ffd433e78f72" />
-<img width="1898" height="439" alt="image" src="https://github.com/user-attachments/assets/becbe72a-5e43-47fb-bc55-9455157b0a6e" />
 
 
 ## 🎯 Problem & Solution

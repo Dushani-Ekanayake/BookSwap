@@ -92,7 +92,7 @@ const SignUp = ({ onClose, onSwitchToSignIn }) => {
 
         {/* Header */}
         <h2 className='text-3xl font-bold text-gray-800 mb-2 text-center'>Create Account</h2>
-        <p className='text-gray-500 text-center mb-6'>Join us and find your dream home</p>
+        <p className='text-gray-500 text-center mb-6'>Let's get you started with your account</p>
 
         {/* Social Sign Up Buttons */}
         <div className='space-y-3 mb-6'>
@@ -206,7 +206,7 @@ const SignUp = ({ onClose, onSwitchToSignIn }) => {
           {/* Submit Button */}
           <button
             type='submit'
-            className='w-full bg-blue-500 text-white py-3 rounded-lg font-medium hover:bg-blue-600 transition'
+            className='w-full bg-gray-500 text-gray-800 py-3 rounded-lg font-medium hover:bg-blue-200 transition'
           >
             Create Account
           </button>
@@ -224,7 +224,7 @@ const SignUp = ({ onClose, onSwitchToSignIn }) => {
           Already have an account?{' '}
           <button
             onClick={onSwitchToSignIn}
-            className='text-blue-500 font-medium hover:underline'
+            className='text-gray-500 font-medium hover:underline'
           >
             Sign In
           </button>

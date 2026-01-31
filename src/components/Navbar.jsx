@@ -9,13 +9,9 @@ const Navbar = () => {
   const [showSignUp, setShowSignUp] = useState(false)
 
   useEffect(() => {
-    if (_showMobileMenu) {
-      document.body.style.overflow = 'hidden' // stop scroll the webpage
-    } else {
-      document.body.style.overflow = 'auto' // allow again scroll the webpage
-    }
+    document.body.style.overflow = _showMobileMenu ? 'hidden' : 'auto'
     return () => {
-      document.body.style.overflow = 'auto' // cleanup function to reset overflow when component unmounts
+      document.body.style.overflow = 'auto'
     }
   }, [_showMobileMenu])
 
@@ -31,67 +27,134 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='absolute top-0 left-0 w-full z-10'>
-        <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
-          <img src={assets.logo} alt="logo" />
-          <ul className='hidden md:flex gap-7 text-white'>
-            <a href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a>
-            <a href="#About" className='cursor-pointer hover:text-gray-400'>About</a>
-            <a href="#Projects" className='cursor-pointer hover:text-gray-400'>Project</a>
-            <a href="#Testimonails" className='cursor-pointer hover:text-gray-400'>Testimonails</a>
+      <div className="absolute top-0 left-0 w-full z-10">
+        <div className="container mx-auto flex justify-between items-center py-6 px-6 md:px-20 lg:px-32">
+
+          {/* Logo */}
+          <div className="flex items-center gap-4 cursor-pointer">
+            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="240"
+  height="72"
+  viewBox="0 0 420 220"
+  className="h-16 md:h-20"
+  preserveAspectRatio="xMinYMid meet"
+>
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow
+        dx="0"
+        dy="4"
+        stdDeviation="10"
+        floodColor="#000000"
+        floodOpacity="0.25"
+      />
+    </filter>
+  </defs>
+
+  {/* Icon */}
+  <g transform="translate(32, 36)" filter="url(#shadow)">
+    <svg
+      width="120"
+      height="120"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="oklch(88.2% 0.059 254.128)"
+      strokeWidth="2.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+    </svg>
+  </g>
+
+  {/* Text */}
+  <text
+    x="190"
+    y="130"
+    fontFamily="Poppins, Arial, sans-serif"
+    fontSize="58"
+    fontWeight="700"
+    fill="oklch(88.2% 0.059 254.128)"
+  >
+    BookSwap
+  </text>
+</svg>
+
+          </div>
+
+          {/* Desktop Menu */}
+          <ul className="hidden md:flex gap-7 text-blue-200 font-bold text-xl">
+            <a href="#Header" className="hover:text-gray-500 transition">Home</a>
+            <a href="#About" className="hover:text-gray-500 transition">About</a>
+            <a href="#Search" className="hover:text-gray-500 transition">Search Books</a>
+            <a href="#Books" className="hover:text-gray-500 transition">Browse</a>
+            <a href="#Testimonials" className="hover:text-gray-500 transition">Reviews</a>
           </ul>
-          <button 
+
+          {/* Desktop Button */}
+          <button
             onClick={() => setShowSignUp(true)}
-            className='hidden md:block bg-white px-8 py-2 rounded-full hover:bg-gray-100 transition'
+            className="hidden md:block bg-blue-200 text-gray-800 px-8 py-2 rounded-full hover:bg-gray-500 transition shadow-md font-semibold"
           >
-            Sign up
+            SignUp
           </button>
-          <img 
-            onClick={() => _setShowMobileMenu(true)} 
-            src={assets.menu_icon} 
-            className='md:hidden w-7 cursor-pointer' 
-            alt="menu" 
+
+          {/* Mobile Menu Icon */}
+          <img
+            onClick={() => _setShowMobileMenu(true)}
+            src={assets.menu_icon}
+            className="md:hidden w-7 cursor-pointer"
+            alt="menu"
           />
         </div>
 
         {/* Mobile Menu */}
-        <div className={`md:hidden ${_showMobileMenu ? 'fixed w-full' : 'h-0 w-0'} right-0 top-0 bottom-0 overflow-hidden bg-white transition-all`}>
-          <div className='flex justify-end p-6 cursor-pointer'>
-            <img 
-              onClick={() => _setShowMobileMenu(false)} 
-              src={assets.cross_icon} 
-              className='w-6' 
-              alt="close" 
+        <div
+          className={`md:hidden ${
+            _showMobileMenu ? 'fixed w-full' : 'h-0 w-0'
+          } right-0 top-0 bottom-0 overflow-hidden bg-white transition-all z-50`}
+        >
+          <div className="flex justify-end p-6">
+            <img
+              onClick={() => _setShowMobileMenu(false)}
+              src={assets.cross_icon}
+              className="w-6 cursor-pointer"
+              alt="close"
             />
           </div>
-          <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>
-            <a onClick={() => _setShowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'>Home</a>
-            <a onClick={() => _setShowMobileMenu(false)} href="#About" className='px-4 py-2 rounded-full inline-block'>About</a>
-            <a onClick={() => _setShowMobileMenu(false)} href="#Projects" className='px-4 py-2 rounded-full inline-block'>Project</a>
-            <a onClick={() => _setShowMobileMenu(false)} href="#Testimonails" className='px-4 py-2 rounded-full inline-block'>Testimonials</a>
+
+          <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium text-blue-200">
+            <a onClick={() => _setShowMobileMenu(false)} href="#Header" className="px-4 py-2 rounded-full hover:bg-gray-100">Home</a>
+            <a onClick={() => _setShowMobileMenu(false)} href="#About" className="px-4 py-2 rounded-full hover:bg-gray-100">About</a>
+            <a onClick={() => _setShowMobileMenu(false)} href="#Search" className="px-4 py-2 rounded-full hover:bg-gray-100">Search Books</a>
+            <a onClick={() => _setShowMobileMenu(false)} href="#Books" className="px-4 py-2 rounded-full hover:bg-gray-100">Browse</a>
+            <a onClick={() => _setShowMobileMenu(false)} href="#Testimonials" className="px-4 py-2 rounded-full hover:bg-gray-100">Reviews</a>
           </ul>
-          <button 
+
+          <button
             onClick={() => {
               _setShowMobileMenu(false)
               setShowSignUp(true)
             }}
-            className='mt-6 mx-auto block bg-blue-500 text-white px-8 py-2 rounded-full hover:bg-blue-600 transition'
-          >
-            Sign up
+            className="mt-6 mx-auto block bg-gray-200 text-black px-8 py-2 rounded-full hover:bg-gray-500 transition font-light">
+            SignUp
           </button>
         </div>
       </div>
 
       {/* Auth Modals */}
       {showSignIn && (
-        <SignIn 
-          onClose={() => setShowSignIn(false)} 
+        <SignIn
+          onClose={() => setShowSignIn(false)}
           onSwitchToSignUp={handleSwitchToSignUp}
         />
       )}
+
       {showSignUp && (
-        <SignUp 
-          onClose={() => setShowSignUp(false)} 
+        <SignUp
+          onClose={() => setShowSignUp(false)}
           onSwitchToSignIn={handleSwitchToSignIn}
         />
       )}

@@ -158,7 +158,7 @@ const SignIn = ({ onClose, onSwitchToSignUp }) => {
           {/* Submit Button */}
           <button
             type='submit'
-            className='w-full bg-blue-500 text-white py-3 rounded-lg font-medium hover:bg-blue-600 transition'
+            className='w-full bg-gray-500 text-gray-800 py-3 rounded-lg font-medium hover:bg-blue-200 transition'
           >
             Sign In
           </button>

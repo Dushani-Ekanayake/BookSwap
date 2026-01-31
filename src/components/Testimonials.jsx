@@ -1,35 +1,96 @@
-import React from 'react'
-import { testimonialsData, assets } from '../assets/assets'
-import { motion } from 'framer-motion'
+import React from "react";
+import { testimonialsData, assets } from "../assets/assets";
+import { motion } from "framer-motion";
 
-const Testimonails = () => {
+const Testimonials = () => {
   return (
-    <motion.div
-      initial={{opacity: 0, x: 200}}
-      transition={{duration: 1}}
-      whileInView={{opacity: 1, x: 0}}
-      viewport={{once: true}}
-    className='container mx-auto py-10 px-6 lg:px-32 w-full overflow-hidden' id='Testimonails'>
-        <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Customer <span className='underline underline-offset-4 decoration-1 font-light'>Testimonials</span></h1>
-        <p className='text-center text-gray-500 mb-12 max-w-80 mx-auto'>Real Stories from Those Who Found Home with Us</p>
-    
-        <div className='flex flex-col md:flex-row justify-center items-start gap-8'>
-          {testimonialsData.map((testimonials, index) => (
-            <div key={index} className='w-full md:w-1/3 max-w-[340px] border shadow-lg rounded px-8 py-12 text-center'>
-              <img className='w-20 h-20 rounded-full mx-auto mb-4' src={testimonials.image} alt={testimonials.alt} />
-              <h2 className='text-xl text-gray-700 font-medium'>{testimonials.name}</h2>
-              <p className='text-gray-500 text-sm mb-4'>{testimonials.title}</p>
-              <div className='flex justify-center gap-1 mb-4'>
-                {Array.from({ length: testimonials.rating }, (item, index) => (
-                  <img key={index} src={assets.star_icon} alt="star icon" className='w-5'/>
-                ))}
-              </div>
-              <p className='text-gray-600 text-sm'>{testimonials.text}</p>
-            </div>
-          ))}
-        </div>
-    </motion.div>
-  )
-}
+    <motion.section
+      initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+      className="w-full py-20 bg-white"
+      id="Testimonials"
+    >
+      <div className="max-w-7xl mx-auto px-6 lg:px-20">
+        
+        {/* TOP HEADER */}
+        <div className="text-center mb-16">
+          <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+            Customer <span className="text-blue-600">Reviews</span>
+          </h1>
 
-export default Testimonails
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-4">
+            Hear from our satisfied customers who have experienced the convenience
+            and savings of buying and selling textbooks through our platform.
+          </p>
+
+          <div className="flex items-center justify-center gap-3 text-sm text-gray-600">
+            <span>4.2/5</span>
+            <img src={assets.star_icon} alt="star" className="w-4" />
+            <span className="font-medium">Trustpilot</span>
+            <span>Based on 5210 reviews</span>
+          </div>
+        </div>
+
+        {/* CONTENT */}
+        <div className="grid lg:grid-cols-4 gap-12 items-start">
+          
+          {/* LEFT TEXT */}
+          <div className="lg:col-span-1">
+            <div className="text-gray-700">
+              <div className="text-6xl text-gray-300 leading-none mb-4">“</div>
+              <h3 className="text-xl font-medium">
+                What our customers are saying
+              </h3>
+            </div>
+          </div>
+
+          {/* REVIEWS GRID (NO SCROLL) */}
+          <div className="lg:col-span-3 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {testimonialsData.map((item, index) => (
+              <div
+                key={index}
+                className="bg-white border rounded-2xl p-6 shadow-sm hover:shadow-md transition"
+              >
+                {/* stars */}
+                <div className="flex gap-1 mb-4">
+                  {Array.from({ length: item.rating }).map((_, i) => (
+                    <img
+                      key={i}
+                      src={assets.star_icon}
+                      alt="star"
+                      className="w-4"
+                    />
+                  ))}
+                </div>
+
+                {/* text */}
+                <p className="text-gray-600 text-sm mb-6 leading-relaxed">
+                  {item.text}
+                </p>
+
+                {/* profile */}
+                <div className="flex items-center gap-3">
+                  {/* USER IMAGE – comes from assets.js */}
+                  <img
+                    src={item.image}
+                    alt={item.alt}
+                    className="w-10 h-10 rounded-full object-cover"
+                  />
+                  <div>
+                    <p className="text-sm font-medium">{item.name}</p>
+                    <p className="text-xs text-gray-500">{item.title}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </div>
+    </motion.section>
+  );
+};
+
+export default Testimonials;

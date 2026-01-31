@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='pt-10 px-4 md:px-20 lg:px-32 bg-gray-900 w-full overflow-hidden'id='Footer'>
         <div className='container mx-auto flex flex-col md:flex-row justify-between items-start'>
             <div className='w-full md:w-1/3 mb-8 md:mb-0'>
-                <img src={assets.logo_dark} alt="" />
+                <h2 className='text-2xl font-bold text-white mb-4'>BookSwap</h2>
                 <p className='text-gray-400 mt-4'>Estate delivers a modern real estate experience powered by technology.
 We bring verified listings and expert guidance together in one platform.
 Our focus is simplicity and trust.
@@ -26,7 +26,7 @@ Turning property goals into real results.</p>
              <p className='text-gray-400 mb-4 max-w-80'>The latest news, articles, and resources,sent to your inbox weekly</p>
             <div className='flex gap-2'>
                 <input type="email" placeholder="Enter your email" className='p-2 rounded bg-gray-800 text-gray-400 broder border-gray-700 focus:outline-none w-full md:w-auto' />
-                <button className='py-2 px-4 rounded bg-blue-500 text-white'>Subscribe</button>
+                <button className='py-2 px-4 rounded bg-blue-200 text-white'>Subscribe</button>
             </div>
             
             </div>

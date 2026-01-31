@@ -1,78 +1,91 @@
-📚 BookSwap - Affordable Student Textbook Marketplace
+# 📚 BookSwap - Affordable Student Textbook Marketplace
 
-<img width="1880" height="1032" alt="Screenshot 2026-01-31 205919" src="https://github.com/user-attachments/assets/11df96e4-2205-489f-9cbf-962568a71538" />
+<img width="1880" height="1032" alt="Screenshot 2026-01-31 205919" src="https://github.com/user-attachments/assets/8aba30ed-a828-4f56-92b7-ac534115498f" />
+<img width="727" height="1027" alt="Screenshot 2026-01-31 210931" src="https://github.com/user-attachments/assets/13209d78-699e-466a-a4a8-ccbb7e519dd9" />
 
-BookSwap is a modern student-focused marketplace platform designed to make university education more affordable and accessible. Students can buy, sell, and exchange textbooks at significantly reduced prices—often saving 50-70% off retail prices.
 
-Making education affordable, one book at a time 📖
-🎯 Problem & Solution
-The Problem
+**BookSwap** is a modern student-focused marketplace platform designed to make university education more affordable and accessible. Students can buy, sell, and exchange textbooks at significantly reduced prices—often saving **50-70% off retail prices**.
+
+> Making education affordable, one book at a time 📖
+
+<img width="1847" height="974" alt="image" src="https://github.com/user-attachments/assets/87dec12e-e9d1-4a84-a793-126f31f9d7c0" />
+<img width="1842" height="1019" alt="image" src="https://github.com/user-attachments/assets/36109e12-5867-44d3-8175-6fd83e0e877f" />
+<img width="1871" height="1019" alt="image" src="https://github.com/user-attachments/assets/1c8b6d84-a220-4669-9b17-2356ddcba64b" />
+<img width="1849" height="807" alt="image" src="https://github.com/user-attachments/assets/2dc57a8c-b652-4e39-a550-627b81861743" />
+<img width="1861" height="944" alt="image" src="https://github.com/user-attachments/assets/e871a809-61c6-4f9b-a961-ffd433e78f72" />
+<img width="1898" height="439" alt="image" src="https://github.com/user-attachments/assets/becbe72a-5e43-47fb-bc55-9455157b0a6e" />
+
+
+## 🎯 Problem & Solution
+
+### The Problem
 University textbooks are expensive (often $100-$300 each), making education less accessible for many students. Used books are rarely available through official channels, and students have no way to recoup their investment after completing a course.
-Our Solution
+
+### Our Solution
 BookSwap connects student buyers and sellers in a peer-to-peer marketplace where:
+- 📚 **Students save money** - Buy books at 50-70% off retail prices
+- 💰 **Students make money** - Sell used textbooks to recover costs
+- 🌱 **Sustainable** - Reduce waste through book reuse
+- 🤝 **Community** - Connect students from the same universities
 
-📚 Students save money - Buy books at 50-70% off retail prices
-💰 Students make money - Sell used textbooks to recover costs
-🌱 Sustainable - Reduce waste through book reuse
-🤝 Community - Connect students from the same universities
+## ✨ Key Features
 
-✨ Key Features
-Search & Discovery
+### Search & Discovery
+- 🔍 **Advanced Search** - 6 powerful filter options
+- 🏫 **University-Based Filtering** - Find books from your uni
+- 📖 **Course-Based Search** - Search by course code
+- 💵 **Price Filtering** - Set your budget
+- ⭐ **Condition Filtering** - Brand New to Fair condition
 
-🔍 Advanced Search - 6 powerful filter options
-🏫 University-Based Filtering - Find books from your uni
-📖 Course-Based Search - Search by course code
-💵 Price Filtering - Set your budget
-⭐ Condition Filtering - Brand New to Fair condition
+### Book Marketplace
+- 📱 **Responsive Grid** - 1-3 column responsive layout
+- 💳 **Price Comparison** - See original vs. sale price
+- 🏷️ **Condition Badges** - Color-coded condition indicators
+- 👤 **Seller Info** - University, rating, contact info
+- 🤝 **Direct Contact** - Connect with sellers
 
-Book Marketplace
+### User Engagement
+- ⭐ **Student Reviews** - Real testimonials from users
+- 📊 **Trust Indicators** - 1000+ books, 4.9★ rating
+- 💬 **Contact Form** - Easy communication
+- 📧 **Newsletter** - Stay updated with new listings
 
-📱 Responsive Grid - 1-3 column responsive layout
-💳 Price Comparison - See original vs. sale price
-🏷️ Condition Badges - Color-coded condition indicators
-👤 Seller Info - University, rating, contact info
-🤝 Direct Contact - Connect with sellers
+### Technical Excellence
+- 📱 **Mobile-Optimized** - Perfect on any device
+- ⚡ **Fast Loading** - Optimized performance
+- 🎨 **Professional Design** - Modern, clean interface
+- ♿ **Accessible** - WCAG compliant
+- 🎬 **Smooth Animations** - Framer Motion transitions
 
-User Engagement
+## 📊 Current Statistics
 
-⭐ Student Reviews - Real testimonials from users
-📊 Trust Indicators - 1000+ books, 4.9★ rating
-💬 Contact Form - Easy communication
-📧 Newsletter - Stay updated with new listings
+| Metric | Value |
+|--------|-------|
+| Available Books | 1,234+ |
+| Active Sellers | 650+ |
+| Avg. Savings/Student | Rs. 45,000/year |
+| User Rating | 4.9/5 ⭐ |
+| Supported Universities | 8 |
+| Book Categories | 8 |
 
-Technical Excellence
+## 🚀 Tech Stack
 
-📱 Mobile-Optimized - Perfect on any device
-⚡ Fast Loading - Optimized performance
-🎨 Professional Design - Modern, clean interface
-♿ Accessible - WCAG compliant
-🎬 Smooth Animations - Framer Motion transitions
+### Frontend
+- **React 18+** - Modern UI library with hooks
+- **Tailwind CSS 3+** - Utility-first CSS framework
+- **Framer Motion** - Smooth animations & transitions
+- **React Toastify** - Notification system
+- **Web3Forms** - Form submission service
 
-📊 Current Statistics
-MetricValueAvailable Books1,234+Active Sellers650+Avg. Savings/StudentRs. 45,000/yearUser Rating4.9/5 ⭐Supported Universities8Book Categories8
-🚀 Tech Stack
-Frontend
+### Build & Deploy
+- **Vite** - Lightning-fast build tool
+- **npm/yarn** - Package management
+- **Responsive Design** - CSS Grid & Flexbox
 
-React 18+ - Modern UI library with hooks
-Tailwind CSS 3+ - Utility-first CSS framework
-Framer Motion - Smooth animations & transitions
-React Toastify - Notification system
-Web3Forms - Form submission service
 
-Build & Deploy
+## 📁 Project Structure
 
-Vite - Lightning-fast build tool
-npm/yarn - Package management
-Responsive Design - CSS Grid & Flexbox
-
-Browser Support
-
-✅ Chrome/Edge (latest)
-✅ Firefox (latest)
-✅ Safari (latest)
-✅ Mobile browsers (iOS Safari, Chrome Mobile)
-
-📁 Project Structure
+```
 bookswap/
 ├── src/
 │   ├── components/
@@ -101,263 +114,215 @@ bookswap/
 ├── postcss.config.js
 ├── vite.config.js
 └── README.md
-🛠️ Installation & Setup
-Prerequisites
+```
 
-Node.js 14+ or 16+
-npm 6+ or yarn 3+
-Git
+## 🛠️ Installation & Setup
 
-Step-by-Step Setup
+### Prerequisites
+- Node.js 14+ or 16+
+- npm 6+ or yarn 3+
+- Git
 
-Clone the repository
+### Step-by-Step Setup
 
-bashgit clone https://github.com/yourusername/bookswap.git
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/bookswap.git
 cd bookswap
+```
 
-Install dependencies
-
-bashnpm install
+2. **Install dependencies**
+```bash
+npm install
 # or
 yarn install
+```
 
-Configure environment variables
-Create a .env.local file in the root directory:
-
-env# Web3Forms API Key (for contact form)
+3. **Configure environment variables**
+Create a `.env.local` file in the root directory:
+```env
+# Web3Forms API Key (for contact form)
 VITE_WEB3FORMS_KEY=your_web3forms_api_key_here
 
 # (Optional) Backend API URL
 VITE_API_URL=http://localhost:5000
+```
+
 To get a Web3Forms API key:
+- Visit [web3forms.com](https://web3forms.com)
+- Sign up (free)
+- Copy your API key from dashboard
+<img width="1882" height="1035" alt="Screenshot 2026-01-31 211303" src="https://github.com/user-attachments/assets/5f8b4e53-e59d-4e01-9f07-b2d3bf07c190" />
+<img width="1797" height="805" alt="Screenshot 2026-01-31 211319" src="https://github.com/user-attachments/assets/f527483e-457c-4257-a42a-f46dc2bc65a6" />
 
-Visit web3forms.com
-Sign up (free)
-Copy your API key from dashboard
 
 
-Start development server
+4. **Start development server**
+```bash
+npm run dev
+```
 
-bashnpm run dev
-Open http://localhost:5173 in your browser.
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-Build for production
-
-bashnpm run build
+5. **Build for production**
+```bash
+npm run build
 npm preview  # Test production build locally
-📖 Component Documentation
-Components Overview
-ComponentPurposeKey FeaturesHeaderHero sectionMain CTA, value propositionNavbarNavigationLinks, Sign In/Up, responsive menuAboutPlatform infoMission, values, achievementsBookSearchSearch form6 filters, validation, statsBookListingsBook gridCards, pricing, seller infoTestimonialsReviewsStar ratings, trust indicatorsContactContact formValidation, Web3Forms integrationFooterFooterLinks, newsletter, copyright
-Using Components
-BookSearch Component
-jsximport BookSearch from './components/BookSearch'
+```
 
-function App() {
-  const [filters, setFilters] = useState(null)
+## 📖 Component Documentation
 
-  const handleSearch = (filterData) => {
-    // filterData contains: university, category, course, condition, maxPrice, bookName
-    setFilters(filterData)
-  }
+### Components Overview
 
-  return <BookSearch onSearch={handleSearch} />
-}
-Props:
+| Component | Purpose | Key Features |
+|-----------|---------|--------------|
+| **Header** | Hero section | Main CTA, value proposition |
+| **Navbar** | Navigation | Links, Sign In/Up, responsive menu |
+| **About** | Platform info | Mission, values, achievements |
+| **BookSearch** | Search form | 6 filters, validation, stats |
+| **BookListings** | Book grid | Cards, pricing, seller info |
+| **Testimonials** | Reviews | Star ratings, trust indicators |
+| **Contact** | Contact form | Validation, Web3Forms integration |
+| **Footer** | Footer | Links, newsletter, copyright |
 
-onSearch(filterObject) - Callback when search is performed
 
-Filter Object Structure:
-javascript{
-  university: 'University of Colombo',
-  category: 'IT/Computer Science',
-  course: 'CS101',
-  condition: 'Like New',
-  maxPrice: '5000',
-  bookName: 'Data Structures'
-}
-BookListings Component
-jsximport BookListings from './components/BookListings'
+## 🎨 Design System
 
-<BookListings filters={searchFilters} />
-Props:
-
-filters (optional) - Filter object to narrow results
-
-🎨 Design System
-Color Palette
+### Color Palette
+```
 Primary Blue:    #2563EB
 Light Blue:      #DBEAFE / #EFF6FF
 Dark Gray:       #111827
 Medium Gray:     #6B7280
 Light Gray:      #F3F4F6
 White:           #FFFFFF
-Typography
+```
+
+### Typography
+```
 Headings:   Bold 24px - 82px (5xl - 4xl)
 Body:       Regular 14px - 16px
 Labels:     Semibold 12px - 14px
 Font:       System default (Tailwind)
-Spacing Scale
+```
+
+### Spacing Scale
+```
 xs: 4px    (0.25rem)
 sm: 8px    (0.5rem)
 md: 16px   (1rem)
 lg: 24px   (1.5rem)
 xl: 32px   (2rem)
 2xl: 48px  (3rem)
-Responsive Breakpoints
-Mobile:   < 768px (default)
-Tablet:   768px - 1023px (md: prefix)
-Desktop:  > 1024px (lg: prefix)
-🔌 API Integration
-Web3Forms Setup (Contact Form)
+```
+
+## 🔌 API Integration
+
+### Web3Forms Setup (Contact Form)
+
 BookSwap uses Web3Forms for form submissions:
 
-Sign up at web3forms.com
-Get API key from dashboard
-Add to .env.local:
+1. **Sign up** at [web3forms.com](https://web3forms.com)
+2. **Get API key** from dashboard
+3. **Add to `.env.local`:**
+```env
+VITE_WEB3FORMS_KEY=your_api_key_here
+```
 
-envVITE_WEB3FORMS_KEY=your_api_key_here
-Contact Form Example
-jsxconst formData = new FormData(event.target);
-formData.append("access_key", process.env.VITE_WEB3FORMS_KEY);
-
-const response = await fetch("https://api.web3forms.com/submit", {
-  method: "POST",
-  body: formData
-});
-
-const data = await response.json();
-if (data.success) {
-  console.log('Form submitted successfully');
-}
-🧪 Testing
-Testing Checklist
-Functionality Testing
-
- Navigation links work correctly
- Search filters apply properly
- Book grid displays correctly
- Contact form submits successfully
- Responsive design on mobile
- Form validation works
- Toast notifications appear
- Mobile menu opens/closes
- No console errors
-
-Browser Testing
-Tested Browsers:
-✅ Chrome/Edge (latest)
-✅ Firefox (latest)
-✅ Safari (latest)
-✅ Mobile Safari (iOS)
-✅ Chrome Mobile (Android)
-Device Testing
-Desktop:           1920x1080
-Tablet:            768x1024
-Mobile:            375x667
-Mobile Landscape:  667x375
-🚀 Deployment
-Vercel (Recommended)
-bashnpm install -g vercel
-vercel login
-vercel
-Netlify
-bashnpm install -g netlify-cli
-netlify login
-netlify deploy --prod --dir=dist
-GitHub Pages
-bashnpm run build
-# Deploy dist/ folder to GitHub Pages
-Traditional Server
-bashnpm run build
-# Upload dist/ folder to your server
-# Configure web server for SPA (single page application)
-📊 Performance
-Current Performance Metrics
-
-Bundle Size: ~250KB (gzipped)
-First Contentful Paint: <2s
-Time to Interactive: <3s
-Lighthouse Score: 90+
-
-Performance Tips
-
-Code split components with React.lazy()
-Optimize images with image optimization service
-Use Tailwind's production build
-Implement lazy loading
-Monitor bundle size
-
-🐛 Known Issues & Roadmap
-Current Phase (v1.0 - Frontend)
-✅ Complete
-
-Core marketplace UI
-Advanced search functionality
-Book listings & filtering
-Contact form
-Responsive design
-Professional animations
-
-Upcoming Phase (v1.1 - Backend)
-🔄 Planning
-
-User authentication system
-Backend API integration
-Database setup (MongoDB/PostgreSQL)
-Seller verification
-Payment processing (Stripe/PayPal)
-Messaging system
-User dashboard
-
-Future Enhancements (v2.0+)
+### Future Enhancements (v2.0+)
 📋 Planned
+- Mobile app (React Native)
+- Book recommendations engine
+- Wishlist functionality
+- Advanced analytics
+- Admin dashboard
+- Multiple language support
+- Dark mode
+- Community features
 
-Mobile app (React Native)
-Book recommendations engine
-Wishlist functionality
-Advanced analytics
-Admin dashboard
-Multiple language support
-Dark mode
-Community features
 
-🔄 Backend Integration Roadmap
-Phase 1: Authentication (Month 2)
+1. **Fork the repository**
+```bash
+git clone https://github.com/yourusername/bookswap.git
+cd bookswap
+```
 
- User registration & login
- Email verification
- Password reset
- JWT tokens
- Protected routes
+2. **Create a feature branch**
+```bash
+git checkout -b feature/amazing-feature
+```
 
-Phase 2: Database (Month 2-3)
+3. **Make your changes**
+```bash
+# Edit files, test locally
+npm run dev
+```
 
- MongoDB/PostgreSQL setup
- User schema
- Book schema
- Transaction schema
- Review schema
+4. **Commit your changes**
+```bash
+git add .
+git commit -m "Add amazing feature"
+```
 
-Phase 3: API Integration (Month 3)
+5. **Push to the branch**
+```bash
+git push origin feature/amazing-feature
+```
 
- RESTful API endpoints
- CRUD operations
- Search functionality
- Filtering & sorting
- Pagination
+## 📝 Code Examples
 
-Phase 4: Features (Month 4)
+### Adding a New Book
+```jsx
+const newBook = {
+  id: 7,
+  title: 'Advanced Algorithms',
+  author: 'Cormen et al.',
+  price: 4500,
+  originalPrice: 14000,
+  condition: 'Like New',
+  seller: 'John Doe',
+  university: 'University of Moratuwa',
+  course: 'CS401',
+  category: 'IT/Computer Science',
+  description: 'Excellent condition, minimal highlighting.'
+}
+```
 
- Payment integration
- Seller verification
- Rating & reviews
- Messaging system
- User dashboard
+### Customizing Colors
+```jsx
+// Change all blue colors to your brand color
+// Before:
+className="bg-blue-600"
 
-Phase 5: Admin (Month 5)
+// After:
+className="bg-amber-600"  // or your color
+```
 
- Admin dashboard
- Moderation tools
- Analytics
- Reporting
- User management
+### Using with Filter State
+```jsx
+const [searchFilters, setSearchFilters] = useState(null)
+
+const handleSearch = (filters) => {
+  setSearchFilters(filters)
+}
+
+return (
+  <>
+    <BookSearch onSearch={handleSearch} />
+    <BookListings filters={searchFilters} />
+  </>
+)
+```
+
+
+## 🙏 Acknowledgments
+
+- **React** - UI library
+- **Tailwind CSS** - Styling framework
+- **Framer Motion** - Animation library
+- **Web3Forms** - Form service
+- **All contributors** - Making BookSwap better
+- **Students** - Our inspiration
+
+> "Making quality education accessible to every student, one book at a time." 📚
+

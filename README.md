@@ -56,16 +56,6 @@ BookSwap connects student buyers and sellers in a peer-to-peer marketplace where
 - ♿ **Accessible** - WCAG compliant
 - 🎬 **Smooth Animations** - Framer Motion transitions
 
-## 📊 Current Statistics
-
-| Metric | Value |
-|--------|-------|
-| Available Books | 1,234+ |
-| Active Sellers | 650+ |
-| Avg. Savings/Student | Rs. 45,000/year |
-| User Rating | 4.9/5 ⭐ |
-| Supported Universities | 8 |
-| Book Categories | 8 |
 
 ## 🚀 Tech Stack
 
